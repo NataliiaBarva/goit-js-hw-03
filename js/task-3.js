@@ -1,12 +1,12 @@
 function filterArray(numbers, value) {
-    let filterArray = [];
+    const filteredArray = [];
     for (let i = 0; i < numbers.legth; i++) {
 
         if (numbers[i] > value) {
-            filterArray.push(number[i]);
+            filteredArray.push(number[i]);
         }
     }
-    return filterArray;
+    return filteredArray;
 }
 
 
